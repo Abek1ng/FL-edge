@@ -15,11 +15,7 @@ from tinydb import TinyDB, Query
 from model import MLPClassifier
 
 # ------------------ Configuration ------------------ #
-<<<<<<< HEAD
 SERVER_URL = "https://9953-87-255-216-86.ngrok-free.app"  # Federated server endpoint
-=======
-SERVER_URL = "https://f83c-185-48-148-175.ngrok-free.app"  # Federated Learning Server
->>>>>>> 18bac7101e9b7514bd4155cfae04d7c47db5b7eb
 DEVICE_ID = 1
 LOCAL_DATA_PATH = f"./local_storage/local_data_{DEVICE_ID}.csv"
 REPORT_DB_PATH = "./local_storage/reports.json"  # TinyDB storage
