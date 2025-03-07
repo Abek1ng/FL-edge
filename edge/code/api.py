@@ -46,7 +46,7 @@ def predict_anomaly(sensor_data):
         logger.error(f"Error processing sensor data: {e}")
         return None
 
-@app.route('/predict', methods=['POST'])
+@app.route('/send_data', methods=['POST'])
 def predict():
     """API endpoint to receive sensor data and return anomaly prediction."""
     try:
